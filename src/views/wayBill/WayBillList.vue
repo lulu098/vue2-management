@@ -293,6 +293,7 @@ import WayBillModel from "@/views/wayBill/WayBillModel.vue"
             
         },
         activated(){
+          
             if(this.fromDetail){
                 this.getTable()
             }
@@ -308,7 +309,7 @@ import WayBillModel from "@/views/wayBill/WayBillModel.vue"
                     from.meta.keepAlive=true
                 }else{
                     from.meta.keepAlive=false
-                    this.clear()
+                     this.clear()
      
                 }
                 next()

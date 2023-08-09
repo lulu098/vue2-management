@@ -105,6 +105,7 @@
  import { post } from "@/utils/http";
 import {  mapMutations, mapState } from "vuex";
 import CityArea from "./CityArea.vue"
+// import { nextTick } from 'vue';
     export default {
         props:["orderStatus"],
         components:{
@@ -187,6 +188,13 @@ import CityArea from "./CityArea.vue"
                 formLabelWidth: '120px',
             };
         },
+    //     mounted(){
+    //         nextTick(()=>{ console.log(this.$refs)})
+           
+    //     },
+    //    updated(){
+    //         console.log(this.$refs)
+    //     },
         methods:{
             //保存表格每项信息内容发给后台
             save(){
