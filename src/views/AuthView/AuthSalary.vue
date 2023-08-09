@@ -1,7 +1,7 @@
 <template>
     <div>
         这是薪酬页，
-        这是哈哈哈
+        这是呵呵呵
     </div>
 </template>
 
